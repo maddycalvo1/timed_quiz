@@ -10,7 +10,7 @@ Some of the features I included was a visible bar where the user can see which q
 
 Javascript for the countdown clock:
 
-<!-- document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
     const timeLeftDisplay = document.querySelector('#time-left')
     const startBtn = document.querySelector('#start-button')
     let timeLeft = 10
@@ -27,11 +27,11 @@ Javascript for the countdown clock:
 
         startBtn.addEventListener('click', countDown)
     }
- -->
+
 
  Javascript for the scoreboard:
 
- <!-- getNewQuestion = () => {
+getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
 
@@ -77,7 +77,7 @@ choices.forEach(choice => {
             getNewQuestion()
 
         }, 1000)
-    }) -->
+    }) 
 
 ## References
 
